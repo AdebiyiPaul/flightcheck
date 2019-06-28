@@ -47,6 +47,6 @@ export const SERVER_REQUEST = async (body, endpoint, reqType) => {
 const GET_HEADER = async () => {
     return new Headers({
         'Content-Type': 'application/json',
-        Authorization: 'Bearer 5eyrt26jku6h98p46p5tej5g'
+        Authorization: 'Bearer txhrhhwrbngfcxdvhedzpxb8'
     });
 };
