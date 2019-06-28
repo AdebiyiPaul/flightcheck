@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {View, ScrollView, ImageBackground} from 'react-native';
+import {View, ScrollView} from 'react-native';
 import { CONTAINER_STYLE } from '../shared/Styles';
 import {
     CommonHeader,
@@ -19,11 +19,6 @@ class Landing extends Component {
             this.props.selectedDestinationAirportCode,
             this.props.navigation);
     }
-
-    // buttonDisability() {
-    //     return !(this.props.selectedFundCategory &&
-    //         this.props.selectedDuration);
-    // };
 
     airportSelectBox(category)
     {
@@ -81,7 +76,6 @@ class Landing extends Component {
                             label='Fetch airline schedules'
                             onPress={() => this.onFetchButtonPressed()}
                             style={{marginBottom: 30}}
-                            // disabled={this.buttonDisability()}
                         />
 
                     </ScrollView>

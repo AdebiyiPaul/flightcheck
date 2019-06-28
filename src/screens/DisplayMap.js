@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-import {View, ScrollView, ImageBackground, StyleSheet} from 'react-native';
-import { CONTAINER_STYLE } from '../shared/Styles';
-import {
-    CommonHeader,
-    DatePickerButton,
-    CustomLoader,
-    CommonButton
-} from '../components';
+import {StyleSheet} from 'react-native';
 import { connect } from 'react-redux';
-import { TextInput} from 'react-native-paper';
 import {selectAirportCategory, updateFetchAirportValues, fetchAirportSchedule} from "../store/actions";
 import MapView, {Polyline} from "react-native-maps";
 
 class DisplayMap extends Component {
 
     render() {
-        const {selectedOriginAirportCoordinate, selectedDestinationAirportCoordinate, loading} = this.props;
+        const {selectedOriginAirportCoordinate, selectedDestinationAirportCoordinate} = this.props;
         return (
 
             <MapView

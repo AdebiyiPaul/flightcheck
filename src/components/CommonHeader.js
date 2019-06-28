@@ -2,7 +2,7 @@ import React from 'react';
 import {BoldText} from './BoldText';
 import {Platform} from 'react-native';
 import {Appbar} from 'react-native-paper';
-import {LIGHTER_COLOR, PRIMARY_COLOR, TERTIARY_COLOR} from "../shared/Colors";
+import {LIGHTER_COLOR, PRIMARY_COLOR} from "../shared/Colors";
 
 export const CommonHeader = (props) => {
     const leftSide = () => {

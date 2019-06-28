@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {ImageBackground, View, Image} from 'react-native';
-import {GET_PENCOMPIN} from '../shared/Storage';
+import {View, Image} from 'react-native';
 
 class Splash extends Component {
 

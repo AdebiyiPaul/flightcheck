@@ -5,7 +5,6 @@ const baseUrl = 'https://api.lufthansa.com/v1/';
 
 export const FETCH_AIRPORT_API = 'mds-references/airports';
 export const FETCH_AIRPORT_SCHEDULE_API = 'operations/schedules';
-export const VALIDATE_USER_API = 'ValidateUser';
 
 export const SERVER_REQUEST = async (body, endpoint, reqType) => {
     let response;
